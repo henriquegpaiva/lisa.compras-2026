@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+:root {
+    --cor-primaria-1:#5A072B;
+    --cor-primaria-2:#490039;
+    --cor-primaria-3:#6E483F;
+    --cor-primaria-4:#3B3B3B;
+    --cor-bg:#2A1A1F;
+
+
+
+    --cor-preto:#1d1d1d;
+    --cor-branco: #FFF5E9;
+    --sombra: rgba(0, 0, 0, 0.15);
+    --cor-texto: #333;
+
+    --fonte: 'Noto Sans Japanese';
+
+    --raio: 12px;
+    --transition: 12px ease;
+}
