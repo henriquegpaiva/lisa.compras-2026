@@ -50,7 +50,12 @@ body {
     padding: 15px;
 }
 
-
+#logo {
+    width: 210px;
+    height: auto;
+    margin-block: 20px;
+    border-radius: var(--raio);   
+}
 
 .titulo {
     font-size: clamp(1.5rem, 3rem, 2rem);
