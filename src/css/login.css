@@ -19,7 +19,7 @@
     --fonte: 'Noto Sans Japanese';
 
     --raio: 12px;
-    --transition: 12px ease;
+    --transition: 0.3s ease;
 }
 
 * {
