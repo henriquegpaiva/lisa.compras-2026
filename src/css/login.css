@@ -1,0 +1,127 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+:root {
+    --cor-primaria-1:#5A072B;
+    --cor-primaria-2:#490039;
+    --cor-primaria-3:#6E483F;
+    --cor-primaria-4:#3B3B3B;
+    --cor-bg:#2A1A1F;
+
+
+
+    --cor-preto:#1d1d1d;
+    --cor-branco: #FFF5E9;
+    --sombra: rgba(0, 0, 0, 0.15);
+    --cor-texto: #333;
+
+    --fonte: 'Noto Sans Japanese';
+
+    --raio: 12px;
+    --transition: 12px ease;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--fonte);
+    background: linear-gradient(135deg,rgba(164, 121, 99, 1) 0%, rgba(61, 46, 32, 1) 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+    padding: 20px;* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--fonte);
+    background: linear-gradient(135deg,rgba(164, 121, 99, 1) 0%, rgba(61, 46, 32, 1) 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: var(--cor-branco);
+    padding: clamp(2rem, 5vh, 3rem);
+    border-radius: var(--raio);
+    box-shadow: 0 8px 24px var(--sombra);
+    width: 100%;
+    max-width: 400px;
+    height: 60%;
+    text-align: center;
+    padding: 15px;
+}
+
+.titulo {
+    font-size: clamp(1.5rem, 3rem, 2rem);
+    color: var(--cor-texto);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    margin-block: 15px;
+}
+
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid var(--cor-preto);
+    border-radius: var(--raio);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+input:focus {
+    border-color: var(--cor-primaria-1);
+    outline: none;
+    box-shadow: 0 0 0 3px var(--cor-primaria-1);
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: var(--raio);
+    background-color: var(--cor-primaria-1);
+    color: var(--cor-branco);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+button:hover {
+    background-color: var(--cor-branco);
+    color: var(--cor-preto);
+}
+
+@media (max-width: 360px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    input, button {
+        font-size: 0.95rem;
+    }
+}

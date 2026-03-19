@@ -19,3 +19,19 @@
     --raio: 12px;
     --transition: 12px ease;
 }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--fonte);
+    background: linear-gradient(135deg,rgba(164, 121, 99, 1) 0%, rgba(61, 46, 32, 1) 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+    padding: 20px;
