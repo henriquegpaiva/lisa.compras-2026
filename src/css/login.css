@@ -112,6 +112,7 @@ button {
 }
 
 button:hover {
+    transform: scale(1.25);
     background-color: var(--cor-primaria-1);
     /* color: var(--cor-preto); */
 }
