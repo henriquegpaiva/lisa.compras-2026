@@ -30,7 +30,7 @@
 
 body {
     font-family: var(--fonte);
-    background: linear-gradient(135deg,rgba(164, 121, 99, 1) 0%, rgba(61, 46, 32, 1) 100%);
+    background: linear-gradient(135deg,rgb(68, 4, 4) 0%, rgb(114, 8, 96) 100%);
 
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@ body {
 
 body {
     font-family: var(--fonte);
-    background: linear-gradient(135deg,rgba(164, 121, 99, 1) 0%, rgba(61, 46, 32, 1) 100%);
+    background: linear-gradient(1135deg,rgb(68, 4, 4) 0%, rgb(114, 8, 96) 100%);
 
     display: flex;
     justify-content: center;
