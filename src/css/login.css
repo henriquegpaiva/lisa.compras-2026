@@ -112,7 +112,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--cor-branco);
+    backdrop-filter: blur(5px);
     color: var(--cor-preto);
 }
 
