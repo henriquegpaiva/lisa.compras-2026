@@ -50,6 +50,8 @@ body {
     padding: 15px;
 }
 
+
+
 .titulo {
     font-size: clamp(1.5rem, 3rem, 2rem);
     color: var(--cor-texto);
