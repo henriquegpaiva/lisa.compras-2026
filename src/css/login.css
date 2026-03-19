@@ -105,15 +105,15 @@ button {
     font-weight: 500;
     border: none;
     border-radius: var(--raio);
-    background-color: var(--cor-primaria-1);
+    background-color: var(--cor-primaria-2);
     color: var(--cor-branco);
     cursor: pointer;
     transition: var(--transition);
 }
 
 button:hover {
-    background-color: var(--cor-primaria-2);
-    color: var(--cor-preto);
+    background-color: var(--cor-primaria-1);
+    /* color: var(--cor-preto); */
 }
 
 @media (max-width: 360px) {
