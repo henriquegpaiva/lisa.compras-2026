@@ -9,14 +9,17 @@
 </head>
 
 <body>
-    <h1 class="titulo">Lista de Compras 2026</h1>
+    <div class="container">
+        <h1 class="titulo">Lista de Compras 2026</h1>
 
-    <ul id="lista"></ul>
+        <ul id="lista"></ul>
 
-    <input type="text" id="item" placeholder="Novo item">
-    <button onclick="adicionarItem()">Adicionar</button>
+        <input type="text" id="item" placeholder="Novo item...">
 
-    <button onclick="logout()">Sair da Lista</button>
+        <button onclick="adicionarItem()">Adicionar</button>
+        <button onclick="logout()">Sair</button>
+    </div>
+
 
     <script type="module" src="app.js"></script>
 
