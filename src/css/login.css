@@ -52,7 +52,7 @@ body {
 
 
 #logo {
-    width: 210px;
+    width: 100%;
     height: auto;
     margin-block: 20px;
     border-radius: var(--raio);   
