@@ -95,7 +95,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 6px var(--cor-texto);
+    box-shadow: 0 2px 20px var(--cor-texto);
     margin-bottom: 1rem;
 }
 
@@ -124,5 +124,5 @@ body {
 #item:focus {
     border: 1px solid var(--cor-primaria-1);
     outline: none;
-    box-shadow: 0 2px 6px var(--cor-texto);
+    box-shadow: 0 2px 20px var(--cor-texto);
 }
