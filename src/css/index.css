@@ -12,11 +12,11 @@
     --sombra: rgba(0, 0, 0, 0.15);
     --cor-texto: #333;
 
-    --fonte: 'Noto Sans Japanese';
-
+    --fonte: 'Noto Sans Japanese', Arial, Helvetica, sans-serif
     --raio: 12px;
     --transition: 0.25s ease;
 }
+
 * {
     box-sizing: border-box;
     padding: 0;
